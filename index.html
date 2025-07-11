@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythm Nation | Dance Academy</title>
+    <meta name="description" content="Join Rhythm Nation Dance Academy and unleash your passion for dance. We offer classes in Hip Hop, Ballet, Salsa, and more for all skill levels.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="container">
+            <a href="#hero" class="logo">Rhythm Nation</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#instructors">Instructors</a></li>
+                <li><a href="#contact" class="btn btn-primary">Join Now</a></li>
+            </ul>
+            <button id="menu-btn" aria-label="Open Menu"><i class="fas fa-bars"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="assets/hero-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <h1>Unleash Your Rhythm</h1>
+                <p>Discover the passion of dance in a community that inspires movement.</p>
+                <a href="#classes" class="btn btn-secondary">Explore Classes</a>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding">
+            <div class="container about-container">
+                <div class="about-content">
+                    <span class="section-tag">Our Story</span>
+                    <h2 class="section-title">Where Every Beat Matters</h2>
+                    <p>Founded in 2015, Rhythm Nation was born from a simple idea: to create a space where anyone can experience the joy of dance. We believe movement is a universal language, and our mission is to empower individuals of all ages and backgrounds to express themselves, build confidence, and connect with a vibrant community.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="classes" class="section-padding">
+            <div class="container">
+                <span class="section-tag">Our Programs</span>
+                <h2 class="section-title">Find Your Class</h2>
+                <div class="classes-grid">
+                    <div class="class-card">
+                        <img src="assets/class-hiphop.jpg" alt="Hip Hop dance class">
+                        <div class="card-overlay">
+                            <h3>Urban Hip Hop</h3>
+                            <p>Master the foundations and latest street styles in our high-energy hip hop classes.</p>
+                            <a href="#" class="btn btn-tertiary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="class-card">
+                        <img src="assets/class-ballet.jpg" alt="Ballet dance class">
+                        <div class="card-overlay">
+                            <h3>Classic Ballet</h3>
+                            <p>Build grace, strength, and discipline with our comprehensive classical ballet training.</p>
+                            <a href="#" class="btn btn-tertiary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="class-card">
+                        <img src="assets/class-salsa.jpg" alt="Salsa dance class">
+                        <div class="card-overlay">
+                            <h3>Sizzling Salsa</h3>
+                            <p>Feel the heat of Latin rhythms and master the vibrant partner work of salsa dancing.</p>
+                            <a href="#" class="btn btn-tertiary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="instructors" class="section-padding">
+            <div class="container">
+                <span class="section-tag">Meet the Team</span>
+                <h2 class="section-title">Our Expert Instructors</h2>
+                <div class="instructors-grid">
+                    <div class="instructor-card">
+                        <div class="instructor-image">
+                            <img src="assets/instructor-1.jpg" alt="Instructor Alex Morgan">
+                        </div>
+                        <h3>Alex Morgan</h3>
+                        <p>Hip Hop & Street Dance</p>
+                    </div>
+                    <div class="instructor-card">
+                        <div class="instructor-image">
+                            <img src="assets/instructor-2.jpg" alt="Instructor Maria Petrova">
+                        </div>
+                        <h3>Maria Petrova</h3>
+                        <p>Ballet & Contemporary</p>
+                    </div>
+                    <div class="instructor-card">
+                        <div class="instructor-image">
+                            <img src="assets/instructor-3.jpg" alt="Instructor Carlos Diaz">
+                        </div>
+                        <h3>Carlos Diaz</h3>
+                        <p>Latin & Salsa</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding">
+             <div class="container contact-container">
+                <span class="section-tag">Get Started</span>
+                <h2 class="section-title">Start Your Dance Journey Today</h2>
+                <p>Have questions or ready to sign up? Reach out to us!</p>
+                <a href="mailto:contact@rhythmnation.com" class="btn btn-secondary">contact@rhythmnation.com</a>
+             </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© 2025 Rohit Pawar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
